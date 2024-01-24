@@ -30,7 +30,7 @@ const people =[
   ]
   
   //Expenses 
-  const expenses = [1000,500,999,654,784,7952,7462,784,955,4512,666];
+  const expenses = [1000,500,999,654,784,7952,7462,784,955,4512];
   
     //to get random party as payer
   function generateRandomNum(){
@@ -47,7 +47,7 @@ const people =[
              //Payers list
              let expense = generateEqualSplit(people[payer],expenses[i]);
              //expene for each in payer 
-             console.log(`Expense ${i} -> payer party ${payer} -> expense among each ${expense}`);
+             console.log(`Expense ${i+1} -> payer party ${payer} -> expense among each ${expense}`);
          }  
   }
 
